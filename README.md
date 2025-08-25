@@ -7,11 +7,11 @@ Amaç: temel backend geliştirme prensiplerini, servis yapısını, REST API olu
 
 ## 🚀 Proje Özeti
 - **Teknolojiler:**
-  - .NET 6+ (ASP.NET Core Web API)
+  - .NET 8 (ASP.NET Core Web API)
   - C#
-  - PostgreSQL (varsayılan) / MSSQL (alternatif)
+  - PostgreSQL
   - Entity Framework Core
-- **Mimari:** Katmanlı yapı (Controller – Service – Repository)
+- **Mimari:** Katmanlı yapı (Domain-DataAccess-Business-API)
 - **Özellikler:**
   - Ürün ekleme (POST)
   - Ürün listeleme (GET, sayfalı)
@@ -80,3 +80,4 @@ Amaç: temel backend geliştirme prensiplerini, servis yapısını, REST API olu
 - Proje **case çalışması** niteliğindedir.
 - Çalıştırmak için `dotnet run` komutu yeterlidir.
 - PostgreSQL bağlantısı çalışmazsa `appsettings.json` üzerinden kendi bağlantınızı tanımlayın.
+- Projeye başlama zamanı *11:00* | Proje bitiş zamanı *13:30*
